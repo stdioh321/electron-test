@@ -4,6 +4,7 @@
 ```sh
 $ cd electron-test
 $ npm install
+$ npm install -D -g electron-packager
 ```
 
 # Run
@@ -24,4 +25,10 @@ $ electron-packager . [APPLICATION-NAME] --platform=win32 --arch=x64 --overwrite
 Exemple:
 ```sh
 $ electron-packager . mysuperapp --platform=win32 --arch=x64 --overwrite
+```
+
+# # MacOS
+
+```sh
+$ electron-packager .  [APPLICATION-NAME] --platform=darwin --overwrite
 ```
